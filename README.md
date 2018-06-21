@@ -1,2 +1,2 @@
 # MedDRA-Coding
-# MedDRA-Coding
+# Mapping MedDRA Code From Reported Term
