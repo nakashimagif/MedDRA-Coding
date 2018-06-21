@@ -1,0 +1,8 @@
+__pycache__/
+data/
+mldata/
+temp/
+.ipynb_checkpoints/
+.idea
+read_data.py
+

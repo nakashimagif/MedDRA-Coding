@@ -1,0 +1,18 @@
+Download from Wikipedia:
+   1 Day
+
+python process_wiki.py enwiki-20170901-pages-articles.xml.bz2 wiki.en.text
+   1 hour
+   INFO: finished iterating over Wikipedia corpus of 4328731 documents with 2381022622 positions (total 17807120 articles, 2445166433 positions before pruning articles shorter than 50 words)
+   INFO: Finished Saved 4328731 articles
+
+
+python train_word2vec_model.py wiki.en.text 400 wiki.en.word2vec.model
+    10 hours?
+python train_word2vec_model.py wiki.en.text 100 wiki.en.word2vec.model100
+
+https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/
+
+880185200
+wiki:400, max_len:6, hiden: 50
+
